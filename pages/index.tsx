@@ -8,6 +8,9 @@ const Home: NextPage = () => {
        initial={{ 
          scale: 4.5,
         }}
+        whileHover={{
+          scale: 7.5,
+        }}
         animate={{
           scale: 2,
           // rotate: 360,
