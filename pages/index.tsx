@@ -5,9 +5,15 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
        <motion.h1
+       initial={{ 
+         scale: 4.5,
+        }}
         animate={{
-          rotate: 360,
-          scale: 2
+          scale: 1,
+          rotate: 180,
+        }}
+        transition={{
+          duration: 2,
         }}
        >
            Framer Motion Hero Page
