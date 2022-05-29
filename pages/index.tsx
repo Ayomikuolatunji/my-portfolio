@@ -9,11 +9,14 @@ const Home: NextPage = () => {
          scale: 4.5,
         }}
         animate={{
-          scale: 1,
-          rotate: 180,
+          scale: 2,
+          // rotate: 360,
         }}
         transition={{
           duration: 2,
+          ease: "easeInOut",
+          times: [0, 0.5, 1],
+          loop: Infinity,
         }}
        >
            Framer Motion Hero Page
