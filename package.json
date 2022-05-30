@@ -6,10 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.29",
     "framer-motion": "^6.3.4",
+    "framer-motion-3d": "^6.3.5",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "three": "^0.141.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
