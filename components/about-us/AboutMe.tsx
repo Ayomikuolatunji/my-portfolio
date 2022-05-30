@@ -6,7 +6,9 @@ const { motion } = require("framer-motion");
 export default function AboutMe() {
   return (
     <div className='grid sm:grid-cols-2 grid-cols-1 items-center justify-center mt-10 w-[90%] mx-auto'>
-        <div className="about-text">
+        <motion.div className="about-text"
+          
+        >
              <h1 className='text-[20px]'>
                My name <motion.span className='text-blue-500 text-[30px]'
                   
@@ -22,7 +24,7 @@ export default function AboutMe() {
              >
                Hire Me
              </button>
-        </div>
+        </motion.div>
 
         <div className="about-img flex justify-end sm:mt-0 mt-10">
             <img src={"/assests/ayomiku.jpeg"} alt="my-image" 
