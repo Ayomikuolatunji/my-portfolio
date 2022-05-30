@@ -18,14 +18,30 @@ export default function Contact() {
                     <li>Address</li>
                 </ul>
             </div>
-            <div className="form w-[65%]">
+            <div className="form w-[65%] mt-12">
                 <form action="">
                     <div className="fullname w-full">
                         <input 
                         type="text" 
-                         className='p-4 rounded-lg w-full bg-transparent'
+                         className='p-4 rounded-[100px] w-full bg-transparent border-2 border-green-200 placeholder-white'
                          placeholder='Full Name'
                         />
+                    </div>
+                    <div className="email-phone mt-4">
+                    <input 
+                        type="email" 
+                         className='p-4 rounded-[100px] w-[50%] bg-transparent border-2 border-green-200 placeholder-white'
+                         placeholder='Email'
+                        />
+                        <select name="service" id=""
+                          className='p-4 rounded-[100px] w-[50%] bg-transparent border-2 border-green-200 '
+                        >
+                             <option value="select what you need me for" className='bg-gray-500 rounded-[100px]'>Select why you need me</option>
+                            <option value="job offer" className='bg-gray-500 rounded-[100px]'>Job offer</option>
+                            <option value="freelance job" className='bg-gray-500 rounded-[100px]'>freelance job</option>
+                            <option value="consultancy" className='bg-gray-500 rounded-[100px]'>Consultancy</option>
+                            <option value="partnership offer" className='bg-gray-500 rounded-[100px]'>partnership offer</option>
+                        </select>
                     </div>
                 </form>
             </div>
