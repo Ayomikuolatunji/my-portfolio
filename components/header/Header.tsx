@@ -47,7 +47,7 @@ const Header = () => {
                     {
                       navItems.map(item=>{
                         return(
-                          <Link href="#blog">
+                          <Link href={item.path}>
                               <a className='sm:px-5 px-3'>
                               {item.item}
                               </a>
