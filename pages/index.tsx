@@ -3,7 +3,7 @@ import HomePage from '../layouts/home/Home'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex items-center justify-center py-2">
        <HomePage/>
     </div>
   )
