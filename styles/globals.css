@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image:linear-gradient(to bottom, gray, transparent 100%),url('/assests/bg.jpg');
+    background-image:linear-gradient(to bottom, rgb(109, 108, 108), transparent 100%),url('/assests/bg.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
