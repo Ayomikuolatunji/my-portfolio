@@ -7,9 +7,9 @@ import {AiFillYoutube,AiFillFacebook,AiFillLinkedin,AiFillInstagram,AiFillTwitte
 
 const Footer:React.FC = () => {
    const recentYear=new Date().getFullYear()
-
+   
   return (
-    <div className='mt-24 w-full h-[200px] flex justify-center items-center flex-col'>
+    <div className='mt-24 w-full flex justify-center items-center flex-col'>
         <div className="social-icons flex my-5 mr-4">
              <AiFillYoutube className='text-4xl ml-3'/>
              <AiFillFacebook className="text-4xl ml-3"/>
@@ -21,7 +21,7 @@ const Footer:React.FC = () => {
             <span className='mr-4'>Terms of services</span>
             <span className=''>Privacy policy</span>
         </div>
-        <div className="copyright mb-5">
+        <div className="copyright">
         Copyright {recentYear} @ Peddle Technologies. All Rights Reserved.
         </div>
     </div>

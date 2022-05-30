@@ -50,7 +50,7 @@ export default function AboutMe() {
 
         <div className="about-img flex justify-end sm:mt-0 mt-10">
             <img src={"/assests/ayomiku.jpeg"} alt="my-image" 
-              className='rounded-full w-[400px] h-[400px] -z-50 opacity-[50%]'
+              className='rounded-[40%] w-[400px] h-[400px] -z-50 opacity-[50%]'
             />
         </div>
     </div>
