@@ -37,10 +37,11 @@ export default function Contact() {
                           className='p-4 rounded-[100px] w-[50%] bg-transparent border-2 border-green-200 '
                         >
                              <option value="select what you need me for" className='bg-gray-500 rounded-[100px]'>Select why you need me</option>
-                            <option value="job offer" className='bg-gray-500 rounded-[100px]'>Job offer</option>
-                            <option value="freelance job" className='bg-gray-500 rounded-[100px]'>freelance job</option>
+                            <option value="job offer" className='bg-gray-500 rounded-[100px]'>
+                                Job offer</option>
+                            <option value="freelance job" className='bg-gray-500 rounded-[100px]'>Freelance job</option>
                             <option value="consultancy" className='bg-gray-500 rounded-[100px]'>Consultancy</option>
-                            <option value="partnership offer" className='bg-gray-500 rounded-[100px]'>partnership offer</option>
+                            <option value="partnership offer" className='bg-gray-500 rounded-[100px]'>Partnership offer</option>
                         </select>
                     </div>
                 </form>
