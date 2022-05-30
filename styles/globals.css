@@ -20,5 +20,6 @@ body{
     display: block;
     scroll-behavior: smooth;
     overflow: auto;    
+    opacity: 1;
     color: #ffff;  
 }
