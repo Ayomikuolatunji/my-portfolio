@@ -62,7 +62,7 @@ const Stack:React.FC = () => {
                           Reactjs
                       </li>
                       <li className='px-3 flex justify-center flex-col items-center'>
-                          <img src="/assests/react-typescript.png" alt="img" className='w-12 h-16'/>
+                          <img src="/assests/react-typescript.png" alt="img" className='w-12 h-12'/>
                           Reactjs + Typescript</li>
                       <li className='px-3 flex justify-center flex-col items-center'>
                         <img src="/assests/next-js.svg" alt="img" className='w-12 h-12'/>
@@ -72,13 +72,34 @@ const Stack:React.FC = () => {
                         <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
                           Nextjs + Typescript
                       </li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Material-UI</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Chakra-UI</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Framer Motion</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Ant Design</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Styled-Components</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Jquery</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Sass</li>      
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                      <img src="/assests/mui.png" alt="img" className='w-12 h-12'/>
+                          Material-UI
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Chakra-UI
+                       </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Framer Motion
+                     </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Ant Design
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Styled-Components
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                            <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Jquery
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Sass
+                      </li>      
                     </ul>
                 </TabPanel>
                 <TabPanel>
