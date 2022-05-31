@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { navItems } from '../../helpers/NavtItems';
-import { Line, NavIcon } from './header.style';
+import {Line,NavIcon, Overlay} from './header.style';
 const { motion } = require("framer-motion");
 
 const Header = () => {
@@ -43,11 +43,11 @@ const Header = () => {
 
               {/* nav items */}
             <div className="navtItems">
-                <nav>
+                <nav className='sm:block hidden'>
                     {
                       navItems.map(item=>{
                         return(
-                          <Link href={item.path}  key={item.id}>
+                          <Link href={item.path}  key={item.id} >
                               <motion.a className='sm:px-5 px-3 cursor-pointer contact'
                                 whileHover={{
                                   scale: 1.1,
@@ -62,12 +62,36 @@ const Header = () => {
                         )
                       })
                     }
+                </nav>
                 <NavIcon onClick={() => toggleNav(!toggle)}>
                   <Line open={toggle} />
                   <Line open={toggle} />
                   <Line open={toggle} />
                 </NavIcon>
-                </nav>
+                {/* mobile navbar */}
+                <Overlay open={toggle}>
+                   <div className='flex flex-col w-full items-center justify-center h-[100vh] sm:hidden'>
+                   {
+                      navItems.map(item=>{
+                        return(
+                          <Link href={item.path}  key={item.id}>
+                              <motion.a className='sm:px-5 px-3 cursor-pointer contact'
+                                whileHover={{
+                                  scale: 1.1,
+                                  color: "rgba(255,255,255,0.8)",
+                                  border:'1px solid rgba(255,255,255,0.8)',
+                                  textShadow:'0 0 5px rgba(255,255,255,0.8)'
+                                }}
+                                onClick={()=>toggleNav(false)}
+                              >
+                              {item.item}
+                              </motion.a>
+                          </Link>
+                        )
+                      })
+                    }
+                   </div>
+              </Overlay>
             </div>
          </div>
     </header>
