@@ -15,11 +15,11 @@ const Stack:React.FC = () => {
             <h1 className='text-green-500 text-3xl font-semibold'>My Skills</h1>
         </div>
         <div className="skill-table">
-        <Tabs onChange={(index) => setTabIndex(index)}>
+        <Tabs onChange={(index) => setTabIndex(index)} className="bg-green-300">
             <TabList className='flex justify-between w-full p-3 border-b-4'>
                 <Tab>Languages</Tab>
-                <Tab>Frontend</Tab>
-                <Tab>Blue</Tab>
+                <Tab>Frontends</Tab>
+                <Tab>Backends</Tab>
                 <Tab>Blues</Tab>
             </TabList>
             <TabPanels>
@@ -32,18 +32,27 @@ const Stack:React.FC = () => {
                 </TabPanel>
                 <TabPanel>
                     <ul className='flex w-full p-3 flex-wrap'>
-                      <li className='px-3'>Html</li>
-                      <li className="px-3">Css</li>
+                      <li className='px-3'>Html&Css</li>
                       <li className="px-3">Tailwindcss</li>
-
+                      <li className="px-3">Bootstrap</li>
                       <li className="px-3">Reactjs</li>
                       <li className="px-3">Nextjs</li>
                       <li className='px-3'>Material-UI</li>
                       <li className='px-3'>Chakra-UI</li>
-                      <li className="px-3"></li>     
+                      <li className="px-3">Ant Design</li>
+                      <li className='px-3'>Styled-Components</li>
+                      <li className='px-3'>Jquery</li>
+                      <li className='px-3'>Sass</li>
+                        
                     </ul>
                 </TabPanel>
-                <TabPanel>Red, yellow and blue.</TabPanel>
+                <TabPanel>
+                    <ul>
+                        <li className="px-3"></li>
+                        <li className="px-3"></li>
+                        <li className="px-3"></li>
+                    </ul>
+                </TabPanel>
                 <TabPanel>Red, yellow and blues.</TabPanel>
             </TabPanels>
         </Tabs>
