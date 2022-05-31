@@ -66,8 +66,15 @@ export default function AboutMe() {
                     Download CV
                   </MenuButton>
                   <MenuList className='bg-green-500 p-3 rounded-lg'>
-                    <MenuItem>Download Frontend CV</MenuItem>
-                    <MenuItem>Create a Copy</MenuItem>
+                    <MenuItem>
+                     <a href="https://drive.google.com/file/d/1iptZ9wB80ghZjO34_QP2r9PvXl5FEbcv/view?usp=sharing">
+                     Download Fullstack CV
+                     </a>
+                    </MenuItem>
+                    <MenuItem>
+                    <a href="https://drive.google.com/file/d/1iptZ9wB80ghZjO34_QP2r9PvXl5FEbcv/view?usp=sharing" target={"_blank"}>Download Frontend CV
+                    </a>
+                    </MenuItem>
                   </MenuList>
                 </Menu>
                 </div>

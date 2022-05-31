@@ -21,6 +21,10 @@ const Header = () => {
       id:Math.random(),
       path:"/github",
       item:"Github"
+    },{
+      id:Math.random(),
+      path:"#contact",
+      item:"Contact"
     }
   ]
 
@@ -63,27 +67,9 @@ const Header = () => {
                     {
                       navItems.map(item=>{
                         return(
-                          <Link href={item.path} key={item.id}>
-                              <motion.a className='sm:px-5 px-3 cursor-pointer'
-                                initial={{
-                                  opacity:0,
-                                  y:"-100%",
-                                }}
-                                animate={{
-                                  opacity:1,
-                                  y:"0%",
-                                }}
-                                transition={{
-                                  type: "spring",
-                                  delay:0.5,
-                                }}
+                          <Link href={item.path}  key={item.id}>
+                              <motion.a className='sm:px-5 px-3 cursor-pointer contact'
                                 whileHover={{
-                                  scale: 1.1,
-                                  color: "rgba(255,255,255,0.8)",
-                                  border:'1px solid rgba(255,255,255,0.8)',
-                                  textShadow:'0 0 5px rgba(255,255,255,0.8)'
-                                }}
-                                whileTap={{
                                   scale: 1.1,
                                   color: "rgba(255,255,255,0.8)",
                                   border:'1px solid rgba(255,255,255,0.8)',

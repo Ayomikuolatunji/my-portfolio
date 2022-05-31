@@ -4,7 +4,7 @@ import Form from './Form'
 
 export default function Contacts(){
   return (
-    <div className='sm:w-[80%] mx-auto mt-12 z-50'>
+    <div className='sm:w-[80%] mx-auto mt-12 z-50' id='contact'>
         <div className="intro flex justify-center items-center">
              <h1 className='text-green-500 text-xl font-extrabold 
              opacity-[1]'>Contact Me</h1>
