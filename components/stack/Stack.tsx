@@ -136,19 +136,46 @@ const Stack:React.FC = () => {
                 </TabPanel>
                 <TabPanel>
                     <ul className='bg-[rgba(0,0,0,0.2)] flex w-full p-3 flex-wrap'>
-                        <li className="px-3">
-                            
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/icons8-amazon-s3.svg" alt="img" className='w-12 h-12'/>
                             Aws S3
                         </li>
-                        <li className="px-3">Aws Lambda</li>
-                        <li className="px-3">Aws DynamoDB</li>
-                        <li className="px-3">Aws Api Gateway</li>
-                        <li className="px-3">CI/CD</li>
-                        <li className="px-3">Git</li>
-                        <li className="px-3">Github</li>
-                        <li className="px-3">Github Actions</li>
-                        <li className="px-3">Docker</li>
-                        <li className="px-3">Jest</li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/aws-lambda-icon.svg" alt="img" className='w-12 h-12'/>
+                            Aws Lambda
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            Aws DynamoDB
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/aws-api-gateway.svg" alt="img" className='w-12 h-12'/>
+                            Aws Api Gateway
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                             <img src="/assests/cicd.svg" alt="img" className='w-12 h-12'/>
+                            CI/CD
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/icons8-git.svg" alt="img" className='w-12 h-12'/>
+                            Git
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            Github
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            Github Actions
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            Docker
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            Jest
+                        </li>
                     </ul>
                 </TabPanel>
             </TabPanels>
