@@ -161,19 +161,19 @@ const Stack:React.FC = () => {
                             Git
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                           <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                           <img src="/assests/github.svg" alt="img" className='w-12 h-12'/>
                             Github
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            <img src="/assests/github-action.svg" alt="img" className='w-12 h-12'/>
                             Github Actions
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            <img src="/assests/icons8-docker.svg" alt="img" className='w-12 h-12'/>
                             Docker
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                            <img src="/assests/dynamodb.svg" alt="img" className='w-12 h-12'/>
+                            <img src="/assests/jest-icon.svg" alt="img" className='w-12 h-12'/>
                             Jest
                         </li>
                     </ul>
