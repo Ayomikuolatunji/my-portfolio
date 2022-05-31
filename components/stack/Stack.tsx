@@ -19,8 +19,8 @@ const Stack:React.FC = () => {
             <TabList className='flex justify-center w-full p-3 border-b-2 overflow-auto'>
                 <Tab className='px-3 text-green-300 hover:text-green-500'>Languages</Tab>
                 <Tab  className='px-3 text-green-300 hover:text-green-500'>Frontends</Tab>
-                <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends</Tab>
-                <Tab  className='px-3 text-green-300 hover:text-green-500'>Databases/Tools</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends/Database</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Tools</Tab>
             </TabList>
             <TabPanels>
                 <TabPanel>
@@ -125,11 +125,11 @@ const Stack:React.FC = () => {
                             Mongoose
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                            <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            <img src="/assests/icons8-mysql-logo.svg" alt="img" className='w-12 h-12'/>
                             Mysql
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                            <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            <img src="/assests/sequelize-icon.svg" alt="img" className='w-12 h-12'/>
                             Sequelize
                         </li>
                     </ul>
