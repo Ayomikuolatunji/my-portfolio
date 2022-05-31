@@ -49,12 +49,29 @@ const Stack:React.FC = () => {
                          <img src="/assests/icons8-css3.svg" alt="img" className='w-12 h-12'/>
                           Css3
                        </li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Tailwindcss</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Bootstrap</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Reactjs</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Reactjs + Typescript</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Nextjs</li>
-                      <li className='px-3 flex justify-center flex-col items-center'>Nextjs + Typescript</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/tailwindcss-ar21.svg" alt="img" className='w-12 h-12'/>
+                          Tailwindcss
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/icons8-bootstrap.svg" alt="img" className='w-12 h-12'/>
+                          Bootstrap
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/icons8-react.svg" alt="img" className='w-12 h-12'/>
+                          Reactjs
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/react-typescript.png" alt="img" className='w-12 h-16'/>
+                          Reactjs + Typescript</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                        <img src="/assests/next-js.svg" alt="img" className='w-12 h-12'/>
+                         Nextjs
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                        <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                          Nextjs + Typescript
+                      </li>
                       <li className='px-3 flex justify-center flex-col items-center'>Material-UI</li>
                       <li className='px-3 flex justify-center flex-col items-center'>Chakra-UI</li>
                       <li className='px-3 flex justify-center flex-col items-center'>Framer Motion</li>
