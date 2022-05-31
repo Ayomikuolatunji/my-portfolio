@@ -124,7 +124,7 @@ const Stack:React.FC = () => {
                         <li className="px-3">Github</li>
                         <li className="px-3">Github Actions</li>
                         <li className="px-3">Docker</li>
-                        <li className="px-3"></li>
+                        <li className="px-3">Jest</li>
                     </ul>
                 </TabPanel>
             </TabPanels>
