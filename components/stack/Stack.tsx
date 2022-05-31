@@ -15,23 +15,32 @@ const Stack:React.FC = () => {
             <h1 className='text-green-500 text-3xl font-semibold'>My Skills</h1>
         </div>
         <div className="skill-table">
-        <Tabs onChange={(index) => setTabIndex(index)} className="bg-[rgba(0,0,0,0.3)]">
-            <TabList className='flex justify-between w-full p-3 border-b-4'>
-                <Tab>Languages</Tab>
-                <Tab>Frontends</Tab>
-                <Tab>Backends</Tab>
-                <Tab>Blues</Tab>
+        <Tabs onChange={(index) => setTabIndex(index)} isLazy>
+            <TabList className='flex justify-center w-full p-3 border-b-2 overflow-auto'>
+                <Tab className='px-3 text-green-300 hover:text-green-500'>Languages</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Frontends</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Databases/Tools</Tab>
             </TabList>
             <TabPanels>
                 <TabPanel>
-                    <ul className='flex w-full p-3'>
-                      <li className='px-3'>Javascript</li>
-                      <li className='px-3'>Typescript</li>
-                      <li className='px-3'>Databases/Tools</li>     
+                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3'>
+                        <li className='px-3 flex justify-center flex-col items-center'>
+                          <img src="/assests/icons8-javascript.svg" alt="img" className='w-12 h-12'/>
+                          Javascript
+                        </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/icons8-typescript.svg" alt="img" className='w-12 h-12'/>
+                          Typescript
+                       </li>   
+                       <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/icons8-php-logo.svg" alt="img" className='w-12 h-12'/>
+                          PHP
+                       </li>   
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='flex w-full p-3 flex-wrap'>
+                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
                       <li className='px-3'>Html&Css</li>
                       <li className="px-3">Tailwindcss</li>
                       <li className="px-3">Bootstrap</li>
@@ -50,19 +59,27 @@ const Stack:React.FC = () => {
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='flex w-full p-3 flex-wrap'>
+                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
                         <li className="px-3">Nodejs</li>
                         <li className="px-3">ExpressJs</li>
                         <li className="px-3">Express + Typescript</li>
-                        <li className="px-3">PHP</li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='flex w-full p-3 flex-wrap'>
-                        <li className="px-3"></li>
-                        <li className="px-3"></li>
-                        <li className="px-3"></li>
-                        <li className="px-3"></li>
+                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
+                        <li className="px-3">Mongodb</li>
+                        <li className="px-3">Mongoose</li>
+                        <li className="px-3">Mysql</li>
+                        <li className="px-3">Sequelize</li>
+                        <li className="px-3">Aws S3</li>
+                        <li className="px-3">Aws Lambda</li>
+                        <li className="px-3">Aws DynamoDB</li>
+                        <li className="px-3">Aws Api Gateway</li>
+                        <li className="px-3">CI/CD</li>
+                        <li className="px-3">Git</li>
+                        <li className="px-3">Github</li>
+                        <li className="px-3">Github Actions</li>
+                        <li className="px-3">Docker</li>
                         <li className="px-3"></li>
                     </ul>
                 </TabPanel>
