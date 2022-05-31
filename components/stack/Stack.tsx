@@ -117,12 +117,21 @@ const Stack:React.FC = () => {
                             ExpressJs
                         </li>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
-                           <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
-                            Mongodb
+                           <img src="/assests/mongodb.svg" alt="img" className='w-12 h-12'/>
+                            MongoDB
                         </li>
-                        <li className='px-3 flex justify-center flex-col items-center text-center'>Mongoose</li>
-                        <li className='px-3 flex justify-center flex-col items-center text-center'>Mysql</li>
-                        <li className='px-3 flex justify-center flex-col items-center text-center'>Sequelize</li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/mongoose.svg" alt="img" className='w-12 h-12'/>
+                            Mongoose
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            Mysql
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            Sequelize
+                        </li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
