@@ -1,10 +1,11 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { navItems } from '../../helpers/NavtItems';
+import { Line, NavIcon } from './header.style';
 const { motion } = require("framer-motion");
 
 const Header = () => {
-
+  const [toggle, toggleNav] = useState(false);
 
 
   return (
@@ -61,6 +62,11 @@ const Header = () => {
                         )
                       })
                     }
+                <NavIcon onClick={() => toggleNav(!toggle)}>
+                  <Line open={toggle} />
+                  <Line open={toggle} />
+                  <Line open={toggle} />
+                </NavIcon>
                 </nav>
             </div>
          </div>
