@@ -1,5 +1,17 @@
 import React from 'react'
 const { motion } = require("framer-motion");
+import {BsChevronDown} from "react-icons/bs"
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+  Button,
+} from '@chakra-ui/react'
 
 
 
@@ -47,19 +59,19 @@ export default function AboutMe() {
                 >
                   Hire Me
                 </motion.button>
-                <motion.button 
-                  className='text-white bg-green-500 rounded-lg px-8 py-2 mt-4 ml-9'
-                  initial={{
-                    scale:1.1,
-                  }}
-                  whileHover={{
-                    scale: 1.2,
-                  }}
-                 >
-               Download CV
-             </motion.button>
-            </div>
-        </motion.div>
+                <Menu>
+                  <MenuButton as={Button} rightIcon={<BsChevronDown />}
+                    className='text-white bg-green-500 rounded-lg px-8 py-2.5 ml-2'
+                  >
+                    Download CV
+                  </MenuButton>
+                  <MenuList className='bg-green-500 p-3 rounded-lg'>
+                    <MenuItem>Download Frontend CV</MenuItem>
+                    <MenuItem>Create a Copy</MenuItem>
+                  </MenuList>
+                </Menu>
+                </div>
+            </motion.div>
 
         <div className="about-img flex justify-end sm:mt-0 mt-10">
             <img src={"/assests/ayomiku.jpeg"} alt="my-image" 
