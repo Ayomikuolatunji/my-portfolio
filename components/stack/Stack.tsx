@@ -108,13 +108,21 @@ const Stack:React.FC = () => {
                 </TabPanel>
                 <TabPanel>
                     <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
-                        <li className="px-3">Nodejs</li>
-                        <li className="px-3">ExpressJs</li>
-                        <li className="px-3">Express + Typescript</li>
-                        <li className="px-3">Mongodb</li>
-                        <li className="px-3">Mongoose</li>
-                        <li className="px-3">Mysql</li>
-                        <li className="px-3">Sequelize</li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                            <img src="/assests/icons8-nodejs.svg" alt="img" className='w-12 h-12'/>
+                            Nodejs
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            ExpressJs
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>
+                           <img src="/assests/expressjs-icon.svg" alt="img" className='w-12 h-12'/>
+                            Mongodb
+                        </li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>Mongoose</li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>Mysql</li>
+                        <li className='px-3 flex justify-center flex-col items-center text-center'>Sequelize</li>
                     </ul>
                 </TabPanel>
                 <TabPanel>
