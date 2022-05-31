@@ -6,30 +6,27 @@ const Stack:React.FC = () => {
         <div className="intro text-center">
             <h1 className='text-green-500 text-3xl font-semibold'>My Skills</h1>
         </div>
-        <div className="skill-table grid sm:grid-cols-4 mt-16 grid-cols-2">
-            <div className="skill-table-col">
-                <div className="title text-center">
-                    <h1>Languages</h1>
-                </div>
-                <div className="languagues">
-
-                </div>
-            </div>
-            <div className="skill-table-col">
-                <div className="title text-center">
-                    <h1>Frameworks</h1>
-                </div>
-            </div>
-            <div className="skill-table-col">
-                 <div className="title text-center">
-                    <h1>Tools</h1>
-                </div>
-            </div>
-            <div className="skill-table-col">
-                 <div className="title text-center">
-                    <h1>Other</h1>
-                 </div>
-             </div>
+        <div className="skill-table">
+        <table className='w-full'>
+            <tr>
+                <th>Backend</th>
+                <th>Frontend</th>
+                <th>Databases/Tools</th>
+                <th>Others</th>
+            </tr>
+            <tr>
+                <td>Nodejs</td>
+                <td>Html && Css</td>
+                <td>MongoDB</td>
+                <td>Git</td>
+            </tr>
+            <tr>
+                <td>Express</td>
+                <td>Reactjs</td>
+                <td>Mexico</td>
+                <td>Germany</td>
+            </tr>
+            </table>
         </div>
     </div>
   )
