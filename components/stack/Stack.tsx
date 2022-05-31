@@ -41,21 +41,27 @@ const Stack:React.FC = () => {
                 </TabPanel>
                 <TabPanel>
                     <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
-                      <li className='px-3'>Html&Css</li>
-                      <li className="px-3">Tailwindcss</li>
-                      <li className="px-3">Bootstrap</li>
-                      <li className="px-3">Reactjs</li>
-                      <li className="px-3">Reactjs + Typescript</li>
-                      <li className="px-3">Nextjs</li>
-                      <li className="px-3">Nextjs + Typescript</li>
-                      <li className='px-3'>Material-UI</li>
-                      <li className='px-3'>Chakra-UI</li>
-                      <li className='px-3'>Framer Motion</li>
-                      <li className="px-3">Ant Design</li>
-                      <li className='px-3'>Styled-Components</li>
-                      <li className='px-3'>Jquery</li>
-                      <li className='px-3'>Sass</li>
-                        
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/icons8-html-5.svg" alt="img" className='w-12 h-12'/>
+                          Html5
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>
+                         <img src="/assests/icons8-css3.svg" alt="img" className='w-12 h-12'/>
+                          Css3
+                       </li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Tailwindcss</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Bootstrap</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Reactjs</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Reactjs + Typescript</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Nextjs</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Nextjs + Typescript</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Material-UI</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Chakra-UI</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Framer Motion</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Ant Design</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Styled-Components</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Jquery</li>
+                      <li className='px-3 flex justify-center flex-col items-center'>Sass</li>      
                     </ul>
                 </TabPanel>
                 <TabPanel>

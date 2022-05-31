@@ -1,4 +1,6 @@
 import React from 'react'
+const { motion } = require("framer-motion");
+
 
 const Form:React.FC= () => {
   return (
@@ -29,6 +31,19 @@ const Form:React.FC= () => {
     </div>
     <div className="message mt-7 w-full">
         <textarea  className='p-4 rounded-[10px] w-full bg-transparent border-2 border-green-200 sm:h-[240px] h-[170px] placeholder-white' placeholder='message'/>
+    </div>
+    <div className="submit">
+         <motion.button 
+          className='text-white bg-green-500 rounded-lg px-8 py-2 mt-4 ml-3'
+          initial={{
+            scale:1.1,
+          }}
+          whileHover={{
+            scale: 1.2,
+          }}
+          >
+           Submit
+      </motion.button>
     </div>
 </form>
   )
