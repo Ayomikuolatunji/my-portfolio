@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { navItems } from '../../helpers/NavtItems';
 import {Line,NavIcon, Overlay} from './header.style';
 const { motion } = require("framer-motion");
@@ -9,7 +9,7 @@ const Header = () => {
 
 
   return (
-    <header className='sm:w-[80%] mx-auto sm:py-4 sm:px-5 w-full px-3'>
+    <header className='sm:w-[80%] mx-auto sm:py-4 sm:px-5 w-full px-3 relative'>
       {/* logo */}
          <div className='flex justify-between items-center'>
             <div className="logo relative w-[110px] h-[110px]">
@@ -42,7 +42,7 @@ const Header = () => {
               </div>
 
               {/* nav items */}
-            <div className="navtItems">
+            <div className="navtItems relative">
                 <nav className='sm:block hidden'>
                     {
                       navItems.map(item=>{
@@ -70,7 +70,7 @@ const Header = () => {
                 </NavIcon>
                 {/* mobile navbar */}
                 <Overlay open={toggle}>
-                   <div className='flex flex-col w-full items-center justify-center h-[100vh] sm:hidden'>
+                   <div className='flex flex-col items-center justify-center h-[100vh] sm:hidden'>
                    {
                       navItems.map(item=>{
                         return(
