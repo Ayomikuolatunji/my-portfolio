@@ -15,7 +15,7 @@ const Stack:React.FC = () => {
             <h1 className='text-green-500 text-3xl font-semibold'>My Skills</h1>
         </div>
         <div className="skill-table">
-        <Tabs onChange={(index) => setTabIndex(index)} className="bg-green-300">
+        <Tabs onChange={(index) => setTabIndex(index)} className="bg-[rgba(0,0,0,0.3)]">
             <TabList className='flex justify-between w-full p-3 border-b-4'>
                 <Tab>Languages</Tab>
                 <Tab>Frontends</Tab>
@@ -27,7 +27,7 @@ const Stack:React.FC = () => {
                     <ul className='flex w-full p-3'>
                       <li className='px-3'>Javascript</li>
                       <li className='px-3'>Typescript</li>
-                      <li className='px-3'>PHP</li>     
+                      <li className='px-3'>Databases/Tools</li>     
                     </ul>
                 </TabPanel>
                 <TabPanel>
@@ -36,9 +36,12 @@ const Stack:React.FC = () => {
                       <li className="px-3">Tailwindcss</li>
                       <li className="px-3">Bootstrap</li>
                       <li className="px-3">Reactjs</li>
+                      <li className="px-3">Reactjs + Typescript</li>
                       <li className="px-3">Nextjs</li>
+                      <li className="px-3">Nextjs + Typescript</li>
                       <li className='px-3'>Material-UI</li>
                       <li className='px-3'>Chakra-UI</li>
+                      <li className='px-3'>Framer Motion</li>
                       <li className="px-3">Ant Design</li>
                       <li className='px-3'>Styled-Components</li>
                       <li className='px-3'>Jquery</li>
@@ -47,13 +50,22 @@ const Stack:React.FC = () => {
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul>
+                    <ul className='flex w-full p-3 flex-wrap'>
+                        <li className="px-3">Nodejs</li>
+                        <li className="px-3">ExpressJs</li>
+                        <li className="px-3">Express + Typescript</li>
+                        <li className="px-3">PHP</li>
+                    </ul>
+                </TabPanel>
+                <TabPanel>
+                    <ul className='flex w-full p-3 flex-wrap'>
+                        <li className="px-3"></li>
+                        <li className="px-3"></li>
                         <li className="px-3"></li>
                         <li className="px-3"></li>
                         <li className="px-3"></li>
                     </ul>
                 </TabPanel>
-                <TabPanel>Red, yellow and blues.</TabPanel>
             </TabPanels>
         </Tabs>
         </div>
