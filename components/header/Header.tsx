@@ -1,32 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import { navItems } from '../../helpers/NavtItems';
 const { motion } = require("framer-motion");
 
 const Header = () => {
 
-  const navItems=[
-    {
-      id:Math.random(),
-      path:'/',
-      item:"Home"
-    },{
-      id:Math.random(),
-      path:"/blog",
-      item:"Blog"
-    },{
-      id:Math.random(),
-      path:"/projects",
-      item:"Projects"
-    },{
-      id:Math.random(),
-      path:"/github",
-      item:"Github"
-    },{
-      id:Math.random(),
-      path:"#contact",
-      item:"Contact"
-    }
-  ]
+
 
   return (
     <header className='sm:w-[80%] mx-auto sm:py-4 sm:px-5 w-full px-3'>
