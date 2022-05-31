@@ -136,7 +136,10 @@ const Stack:React.FC = () => {
                 </TabPanel>
                 <TabPanel>
                     <ul className='bg-[rgba(0,0,0,0.2)] flex w-full p-3 flex-wrap'>
-                        <li className="px-3">Aws S3</li>
+                        <li className="px-3">
+                            
+                            Aws S3
+                        </li>
                         <li className="px-3">Aws Lambda</li>
                         <li className="px-3">Aws DynamoDB</li>
                         <li className="px-3">Aws Api Gateway</li>
