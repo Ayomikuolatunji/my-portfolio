@@ -16,7 +16,7 @@ const Stack:React.FC = () => {
         </div>
         <div className="skill-table">
         <Tabs onChange={(index) => setTabIndex(index)} isLazy>
-            <TabList className='flex justify-center w-full p-3 border-b-2 overflow-auto'>
+            <TabList className='flex justify-center w-full p-3 overflow-auto'>
                 <Tab className='px-3 text-green-300 hover:text-green-500'>Languages</Tab>
                 <Tab  className='px-3 text-green-300 hover:text-green-500'>Frontends</Tab>
                 <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends/Database</Tab>
@@ -24,7 +24,7 @@ const Stack:React.FC = () => {
             </TabList>
             <TabPanels>
                 <TabPanel>
-                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3'>
+                    <ul className='bg-[rgba(0,0,0,0.2)] flex w-full p-3'>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
                           <img src="/assests/icons8-javascript.svg" alt="img" className='w-12 h-12'/>
                           Javascript
@@ -40,7 +40,7 @@ const Stack:React.FC = () => {
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='bg-[rgba(0,0,0,0.5)] w-full grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-5 grid-cols-4'>
+                    <ul className='bg-[rgba(0,0,0,0.2)] w-full grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-5 grid-cols-4'>
                       <li className='px-3 flex justify-center flex-col items-center text-center'>
                          <img src="/assests/icons8-html-5.svg" alt="img" className='w-12 h-12'/>
                           Html5
@@ -107,7 +107,7 @@ const Stack:React.FC = () => {
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
+                    <ul className='bg-[rgba(0,0,0,0.2)] flex w-full p-3 flex-wrap'>
                         <li className='px-3 flex justify-center flex-col items-center text-center'>
                             <img src="/assests/icons8-nodejs.svg" alt="img" className='w-12 h-12'/>
                             Nodejs
@@ -135,7 +135,7 @@ const Stack:React.FC = () => {
                     </ul>
                 </TabPanel>
                 <TabPanel>
-                    <ul className='bg-[rgba(0,0,0,0.5)] flex w-full p-3 flex-wrap'>
+                    <ul className='bg-[rgba(0,0,0,0.2)] flex w-full p-3 flex-wrap'>
                         <li className="px-3">Aws S3</li>
                         <li className="px-3">Aws Lambda</li>
                         <li className="px-3">Aws DynamoDB</li>
