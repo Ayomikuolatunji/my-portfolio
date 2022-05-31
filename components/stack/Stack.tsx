@@ -11,8 +11,8 @@ const Stack:React.FC = () => {
             <tr>
                 <th>Backend</th>
                 <th>Frontend</th>
-                <th>Databases/Tools</th>
-                <th>Others</th>
+                <th>Databases</th>
+                <th>Others/Tools</th>
             </tr>
             <tr>
                 <td>Nodejs</td>
@@ -23,8 +23,14 @@ const Stack:React.FC = () => {
             <tr>
                 <td>Express</td>
                 <td>Reactjs</td>
-                <td>Mexico</td>
-                <td>Germany</td>
+                <td>Mongoose</td>
+                <td>CI/CD</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Reactjs</td>
+                <td>Mongoose</td>
+                <td>CI/CD</td>
             </tr>
             </table>
         </div>
