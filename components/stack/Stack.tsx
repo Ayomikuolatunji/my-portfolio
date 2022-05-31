@@ -65,15 +65,19 @@ const Stack:React.FC = () => {
                           <img src="/assests/react-typescript.png" alt="img" className='w-12 h-12'/>
                           Reactjs + Typescript</li>
                       <li className='px-3 flex justify-center flex-col items-center text-center'>
-                        <img src="/assests/next-js.svg" alt="img" className='w-12 h-12'/>
-                         Nextjs
+                          <img src="/assests/next-js.svg" alt="img" className='w-12 h-12'/>
+                          Nextjs
                       </li>
                       <li className='px-3 flex justify-center flex-col items-center text-center'>
-                        <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
+                         <img src="/assests/nextTypes.jpeg" alt="img" className='w-12 h-12'/>
                           Nextjs + Typescript
                       </li>
                       <li className='px-3 flex justify-center flex-col items-center text-center'>
-                      <img src="/assests/mui.png" alt="img" className='w-12 h-12'/>
+                         <img src="/assests/icons8-redux-50.png" alt="img" className='w-12 h-12'/>
+                        Redux
+                      </li>
+                      <li className='px-3 flex justify-center flex-col items-center text-center'>
+                        <img src="/assests/mui.png" alt="img" className='w-12 h-12'/>
                           Material-UI
                       </li>
                       <li className='px-3 flex justify-center flex-col items-center text-center'>
