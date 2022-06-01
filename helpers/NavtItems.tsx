@@ -9,28 +9,28 @@ export  const navItems=[
     {
       id:Math.random(),
       path:'/',
-      icon:<FaHome className="text-4xl text-red-400"/>,
+      icon:<FaHome className="text-2xl inline ml-2"/>,
       item:"Home"
     },{
       id:Math.random(),
       path:"/blog",
-      icon:<FaBlogger/>,
+      icon:<FaBlogger className="text-3xl inline ml-2"/>,
       item:"Blog"
     },{
       id:Math.random(),
       path:"/projects",
       icon:<img src="/assests/icons8-project-64.png" 
-      className="w-10 h-7"/>,
+      className="w-8 h-5 inline" />,
       item:"Projects"
     },{
       id:Math.random(),
       path:"/github",
-      icon:<BiGitBranch/>,
+      icon:<BiGitBranch className="text-3xl inline ml-2"/>,
       item:"Github"
     },{
       id:Math.random(),
       path:"#contact",
-      icon:<FcContacts/>,
+      icon:<FcContacts className="text-3xl inline ml-2"/>,
       item:"Contact Me"
     }
   ]

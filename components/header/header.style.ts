@@ -37,7 +37,7 @@ export const Overlay = styled(NavItemWrapper)`
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 3%, gray 90%);
   z-index: 999;
   width: 60%;
-  height: 100vh;
+  height: 100%;
   left: ${props => (props.open ? 0 : "-100%")};
   transition: left 0.7s ease-in-out;
   @media (min-width: 640px) {

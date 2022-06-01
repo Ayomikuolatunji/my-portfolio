@@ -75,7 +75,7 @@ const Header = () => {
                       navItems.map(item=>{
                         return(
                           <Link href={item.path}  key={item.id}>
-                              <motion.a className='sm:px-5 py-6 cursor-pointer contact'
+                              <motion.a className='sm:px-5 py-4 cursor-pointer contact text-xl'
                                 whileHover={{
                                   scale: 1.1,
                                   color: "rgba(255,255,255,0.8)",
