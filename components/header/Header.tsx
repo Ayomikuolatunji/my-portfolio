@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { navItems } from '../../helpers/NavtItems';
 import {Line,NavIcon, Overlay} from './header.style';
+import {AiOutlineClose} from "react-icons/ai"
 const { motion } = require("framer-motion");
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
 
 
   return (
-    <header className='sm:w-[80%] mx-auto sm:py-4 sm:px-5 w-full px-3 relative'>
+    <header className='sm:w-[80%] mx-auto sm:py-4 sm:px-5 w-full px-3'>
       {/* logo */}
          <div className='flex justify-between items-center'>
             <div className="logo relative w-[110px] h-[110px]">
@@ -71,6 +72,7 @@ const Header = () => {
                 {/* mobile navbar */}
                 <Overlay open={toggle}>
                    <div className='flex flex-col justify-center h-[100vh] sm:hidden -mt-24 ml-10'>
+                   <AiOutlineClose className='absolute top-0 right-0 text-5xl mr-3' onClick={()=>toggleNav(!toggle)}/>
                    {
                       navItems.map(item=>{
                         return(
