@@ -36,8 +36,10 @@ export const Overlay = styled(NavItemWrapper)`
   top: 0;
   bottom: 0;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 3%, gray 100%);
-  z-index: 999;
-  width: 60%;
+  z-index: 99;
+  width: 65%;
+  border-right: 2px solid white;
+  border-radius: 10px;
   height: 100vh;
   display: block;
   left: ${props => (props.open ? 0 : "-100%")};
