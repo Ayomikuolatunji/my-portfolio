@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { navItems } from '../../helpers/NavtItems';
 import {Line,NavIcon, Overlay} from './header.style';
-import {AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare, AiFillYoutube, AiOutlineClose} from "react-icons/ai"
+import {AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare, AiOutlineClose} from "react-icons/ai"
 const { motion } = require("framer-motion");
 
 const Header = () => {
@@ -95,7 +95,7 @@ const Header = () => {
                     }
                     <div className="social-media absolute top-[85%] left-0 w-full">
                         <div className="social-icons flex my-5 mr-4">
-                          <AiFillYoutube className='text-4xl ml-3'/>
+                          <AiFillGithub className='text-4xl ml-3'/>
                           <AiFillFacebook className="text-4xl ml-3"/>
                           <AiFillLinkedin className='text-4xl ml-3'/>
                           <AiFillInstagram className='text-4xl ml-3'/>
