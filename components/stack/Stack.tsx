@@ -31,11 +31,11 @@ const Stack:React.FC = () => {
                    <Frontends/>
                 </TabPanel>
                 <TabPanel>
-                    <Languages/>
-                </TabPanel>
-                <TabPanel>
                     {/* backends stacks */}
                      <Backends/>
+                </TabPanel>
+                <TabPanel>
+                     <Languages/>
                 </TabPanel>
                 <TabPanel>
                     {/* import Tools */}
