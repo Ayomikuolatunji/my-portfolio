@@ -70,12 +70,12 @@ const Header = () => {
                 </NavIcon>
                 {/* mobile navbar */}
                 <Overlay open={toggle}>
-                   <div className='flex flex-col items-center justify-center h-[100vh] sm:hidden'>
+                   <div className='flex flex-col justify-center h-[100vh] sm:hidden -mt-24 ml-10'>
                    {
                       navItems.map(item=>{
                         return(
                           <Link href={item.path}  key={item.id}>
-                              <motion.a className='sm:px-5 px-3 cursor-pointer contact'
+                              <motion.a className='sm:px-5 py-6 cursor-pointer contact'
                                 whileHover={{
                                   scale: 1.1,
                                   color: "rgba(255,255,255,0.8)",
@@ -85,6 +85,7 @@ const Header = () => {
                                 onClick={()=>toggleNav(false)}
                               >
                               {item.item}
+                               {item.icon}
                               </motion.a>
                           </Link>
                         )
