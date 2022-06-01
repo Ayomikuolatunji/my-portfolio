@@ -24,6 +24,12 @@ export  const navItems=[
       item:"Projects"
     },{
       id:Math.random(),
+      path:"/experience",
+      icon:<img src="/assests/success.png" 
+      className="w-8 h-5 inline" />,
+      item:"Experience"
+    },{
+      id:Math.random(),
       path:"/github",
       icon:<BiGitBranch className="text-3xl inline ml-2"/>,
       item:"Github"

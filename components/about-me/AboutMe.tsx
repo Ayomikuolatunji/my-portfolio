@@ -33,7 +33,7 @@ export default function AboutMe() {
               delay:0.8,
             }}
             >
-             <h1 className='text-[20px]'>
+             <h1 className='text-[18px]'>
                <span className='text-3xl'>Hello 👋,</span>
                <br />
                 <span  className='text-3xl'> I'm </span>
@@ -47,7 +47,10 @@ export default function AboutMe() {
                   industry.
                  </span>
              </h1>
-            <div className="btn">
+              <h1 className='text-[18px] mt-4'>
+              Fast-forward to today, and I've had the privilege of working at an Agro E-commerce company, an Edutech start-up, and I have couples of greate personal projects. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients and also helping compaines achieve their purpose digitally.
+              </h1>
+            <div className="btn mt-4">
                 <motion.button 
                     className='text-white bg-green-500 rounded-lg px-8 py-2 mt-4'
                     initial={{
