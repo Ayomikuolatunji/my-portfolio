@@ -72,7 +72,7 @@ const Header = () => {
                 {/* mobile navbar */}
                 <Overlay open={toggle}>
                    <div className='flex flex-col justify-center h-[100vh] sm:hidden -mt-24 ml-10'>
-                   <AiOutlineClose className='absolute top-0 right-0 text-5xl mr-3' onClick={()=>toggleNav(!toggle)}/>
+                   <AiOutlineClose className='absolute top-0 right-0 text-5xl mr-3 sm:hidden' onClick={()=>toggleNav(!toggle)} />
                    {
                       navItems.map(item=>{
                         return(

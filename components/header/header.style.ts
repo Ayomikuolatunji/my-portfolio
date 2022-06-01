@@ -26,6 +26,9 @@ export const Line = styled(NavItemWrapper)`
   margin: 6px;
   background-color: black;
   transition: width 0.4s ease-in-out;
+  :nth-child(2) {
+    width: ${props => (props.open ? "40%" : "70%")};
+  }
 `;
 
 export const Overlay = styled(NavItemWrapper)`
