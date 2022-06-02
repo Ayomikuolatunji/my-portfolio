@@ -34,9 +34,6 @@ const ReactWordCountries:React.FC = () => {
                     <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-2 mt-2'>React Reveal</span>
                     <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-2 mt-2'>React Icons</span>
                     <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-2 mt-2'>countries API</span>
-                    <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-3 mt-2'>Arwes</span>
-                    <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-3 mt-2'>Heroku</span>
-                    <span className='bg-[rgba(0,0,0,0.3)] px-3 py-2 rounded-lg mx-3 mt-2'>Jest</span>
                     </div>
             </div>  
         </div>
