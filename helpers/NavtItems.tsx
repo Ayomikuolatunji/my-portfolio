@@ -30,7 +30,7 @@ export  const navItems=[
       item:"Experience"
     },{
       id:Math.random(),
-      path:"/github",
+      path:"/github-profile",
       icon:<BiGitBranch className="text-3xl inline ml-2"/>,
       item:"Github"
     },{

@@ -6,12 +6,6 @@ import Stack from '../../components/stack/Stack'
 
 const Home = () => {
 
-  // useEffect(()=>{
-  //    fetch('https://api.github.com/users/ayomikuolatunji')
-  //    .then(res => res.json())
-  //    .then(data => console.log(data))
-  //    .catch(err => console.log(err))
-  // },[])
 
   return (
     <div>
