@@ -11,6 +11,7 @@ interface profileDatas{
 
 interface repo{
   name:string
+  description:string
 }
 
 interface profileRepos{
@@ -33,7 +34,7 @@ const Github = () => {
 
  useEffect(()=>{
   const fetchRepos=async()=>{
-    const res=await fetch('https://api.github.com/users/Ayomikuolatunji/repos?created="sort=created&direction=asc')
+    const res=await fetch('https://api.github.com/users/Ayomikuolatunji/repos?sort="updated_at"&created&direction=desc')
     const data=await res.json()
     console.log(data);
      setRepos(data)
@@ -63,9 +64,12 @@ const Github = () => {
                {
                  repos.map((repo:repo,index)=>{
                    return (
-                     <div key={index} className="border-b-3">
+                     <div key={index} className="border-b-2 py-4 border-white">
                         <div className="repo-box">
                             <h1>{repo.name}</h1>
+                        </div>
+                        <div className="desc">
+                            <p>{repo.description}</p>
                         </div>
                      </div>
                    )
