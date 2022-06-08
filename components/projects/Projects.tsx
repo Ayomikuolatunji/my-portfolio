@@ -1,7 +1,7 @@
 import React from 'react'
 import NasaProject from './NasaProject'
 import ReactWordCountries from './ReactWordCountries'
-import TravelAdvisor from '../homePageProjects/TravelAdvisor'
+import TravelAdvisor from './TravelAdvisor'
 
 
 

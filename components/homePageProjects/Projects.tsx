@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import NasaProject from '../projects/NasaProject';
 import ReactWordCountries from '../projects/ReactWordCountries';
-import TravelAdvisor from './TravelAdvisor';
+import TravelAdvisor from '../projects/TravelAdvisor';
 
 
 
