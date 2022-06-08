@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import React from 'react'
-import NasaProject from '../projects/NasaProject';
-import ReactWordCountries from '../projects/ReactWordCountries';
-import TravelAdvisor from './TravelAdvisor';
+import NasaProject from './NasaProject'
+import ReactWordCountries from './ReactWordCountries'
+import TravelAdvisor from '../homePageProjects/TravelAdvisor'
+
 
 
 
@@ -18,13 +18,6 @@ const Projects:React.FC = () => {
                <NasaProject/>
                <TravelAdvisor/>
                <ReactWordCountries/>
-        </div>
-        <div className="see-more flex justify-center mt-10">
-            <Link href='/projects'>
-                  <button className='text-green-500 text-xl font-extrabold px-7 py-2 rounded-3xl border-2 border-white hover:bg-green-500 hover:text-white hover:border-0'>
-                    See more projects
-                  </button>
-            </Link>
         </div>
     </div>
   )
