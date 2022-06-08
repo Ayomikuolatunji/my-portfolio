@@ -22,7 +22,7 @@ const Stack:React.FC = () => {
         <Tabs onChange={(index) => setTabIndex(index)} isLazy>
             <TabList className='flex justify-center w-full p-3 overflow-auto'>
                 <Tab  className='px-3 text-green-300 hover:text-green-500'>Frontends</Tab>
-                <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends/Database</Tab>
+                <Tab  className='px-3 text-green-300 hover:text-green-500'>Backends/Databases</Tab>
                 <Tab className='px-3 text-green-300 hover:text-green-500'>Languages</Tab>
                 <Tab  className='px-3 text-green-300 hover:text-green-500'>Tools</Tab>
             </TabList>
