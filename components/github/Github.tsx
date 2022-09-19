@@ -30,6 +30,7 @@ const Github = () => {
       const fetchProfile = async () => {
         const res = await fetch('https://api.github.com/users/Ayomikuolatunji')
         const data = await res.json()
+        console.log(data)
         setProfileData(data)
       }
       fetchProfile()
@@ -39,15 +40,18 @@ const Github = () => {
   }, [])
 
   useEffect(() => {
-    const fetchRepos = async () => {
-      const res = await fetch(
-        'https://api.github.com/users/Ayomikuolatunji/repos?sort="updated_at"&created&direction=desc'
-      )
-      const data = await res.json()
-      console.log(data)
-      setRepos(data)
-    }
-    fetchRepos()
+     try {
+      const fetchRepos = async () => {
+        const res = await fetch(
+          'https://api.github.com/users/Ayomikuolatunji/repos?sort="updated_at"&created&direction=desc'
+        )
+        const data = await res.json()
+        setRepos(data.slice())
+      }
+      fetchRepos()
+     } catch (error) {
+        console.log(error);
+     }
   }, [])
 
   return (
