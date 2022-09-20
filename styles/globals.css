@@ -6,7 +6,7 @@
 
 
 body{
-    background-image:linear-gradient(to bottom, rgb(109, 108, 108), rgba(0,0,0,0.2) 100%),url('/assests/bg.jpg');
+    background-image:linear-gradient(to bottom, rgb(95, 94, 94), rgba(0,0,0,0.2) 100%),url('/assests/bg.jpg');
     background-size:cover;
     background-color: rgba(0,0,0,1);
     background-repeat:no-repeat;

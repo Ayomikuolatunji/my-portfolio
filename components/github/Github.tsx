@@ -21,20 +21,23 @@ interface repo {
 }
 
 const Github = () => {
-  const [step, setStep] = useState([])
+  const [loading, setLoading] = useState(true)
   const [profileData, setProfileData] = useState<profileDatas>()
   const [repos, setRepos] = useState([])
 
   useEffect(() => {
+    setLoading(true)
     try {
       const fetchProfile = async () => {
         const res = await fetch('https://api.github.com/users/Ayomikuolatunji')
         const data = await res.json()
         console.log(data)
         setProfileData(data)
+        setLoading(false)
       }
       fetchProfile()
     } catch (err) {
+      setLoading(false)
       console.log(err)
     }
   }, [])
@@ -55,8 +58,8 @@ const Github = () => {
   }, [])
 
   return (
-    <div className="sm:w-[70%] w-[95%] mx-auto flex justify-between flex-wrap">
-      <div className="profile sm:w-[40%] p-4 ">
+    <div className="sm:w-[70%] w-[95%] mx-auto sm:sticky mt-10 sm:top-0 sm:left-0 sm:right-0 flex justify-between flex-wrap">
+      {loading || <div className="profile sm:w-[40%] p-4">
         <div className="profile-image">
           <img
             src={profileData?.avatar_url}
@@ -77,7 +80,7 @@ const Github = () => {
           </p>
           <p className="space-x-3">{profileData?.following} following</p>
         </div>
-      </div>
+      </div>}
       <div className="repos sm:w-[60%] w-full mt-10">
         <div className="intro flex justify-center items-center">
           <h1
