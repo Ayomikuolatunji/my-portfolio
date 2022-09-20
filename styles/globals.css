@@ -2,24 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-body{
-    background-image:linear-gradient(to bottom, rgb(95, 94, 94), rgba(0,0,0,0.2) 100%),url('/assests/bg.jpg');
-    background-size:cover;
-    background-color: rgba(0,0,0,1);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    display: block;
-    scroll-behavior: smooth;
-    overflow: auto;    
-    color: #ffff;  
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(95, 94, 94),
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('/assests/bg.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  scroll-behavior: smooth;
+  overflow: auto;
+  color: #ffff;
 }
 
-table, th, td {
-    border:1px solid black;
-  }
+table,
+th,
+td {
+  border: 1px solid black;
+}

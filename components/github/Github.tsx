@@ -91,7 +91,7 @@ const Github = () => {
           </h1>
           <span className="bg-green-500 h-[5px] w-[57px] block ml-3"></span>
         </div>
-        <div className="w-full mx-auto">
+        <div className="mdw-[60%] sm:w-full mx-auto">
           {(repos || []).map((repo: repo, index) => {
             return (
               <div key={index} className="border-b-2 py-4 border-gray">
