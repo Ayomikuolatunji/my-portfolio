@@ -59,7 +59,7 @@ const Github = () => {
 
   return (
     <div className="sm:w-[70%] w-[95%] mx-auto sm:sticky mt-10 sm:top-0 sm:left-0 sm:right-0 flex justify-between flex-wrap">
-      {loading || <div className="profile sm:w-[40%] p-4">
+      {loading || <div className="profile md:w-[40%] p-4">
         <div className="profile-image">
           <img
             src={profileData?.avatar_url}
@@ -81,7 +81,7 @@ const Github = () => {
           <p className="space-x-3">{profileData?.following} following</p>
         </div>
       </div>}
-      <div className="repos sm:w-[60%] w-full mt-10">
+      <div className="repos md:w-[60%] w-full mt-10">
         <div className="intro flex justify-center items-center">
           <h1
             className="text-green-500 text-4xl font-extrabold 
@@ -91,7 +91,7 @@ const Github = () => {
           </h1>
           <span className="bg-green-500 h-[5px] w-[57px] block ml-3"></span>
         </div>
-        <div className="mdw-[60%] sm:w-full mx-auto">
+        <div className="w-full mx-auto">
           {(repos || []).map((repo: repo, index) => {
             return (
               <div key={index} className="border-b-2 py-4 border-gray">
