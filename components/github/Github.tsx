@@ -56,7 +56,7 @@ const Github = () => {
 
   return (
     <div className="sm:w-[70%] w-[95%] mx-auto flex justify-between flex-wrap">
-      <div className="profile sm:w-[40%] p-4">
+      <div className="profile sm:w-[40%] p-4 ">
         <div className="profile-image">
           <img
             src={profileData?.avatar_url}
@@ -88,7 +88,7 @@ const Github = () => {
           </h1>
           <span className="bg-green-500 h-[5px] w-[57px] block ml-3"></span>
         </div>
-        <div className="sm:w-0 w-full mx-auto">
+        <div className="w-full mx-auto">
           {(repos || []).map((repo: repo, index) => {
             return (
               <div key={index} className="border-b-2 py-4 border-gray">
